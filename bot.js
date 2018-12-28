@@ -28,79 +28,79 @@ client.on('message', message => {
  var prefix = "-";
 if (message.content.startsWith(prefix + 'help')) {
     let pages = [
-	`=-=-=-=-=-= ?? Public Commands - اوامر عامة ?? =-=-=-=-=-=
-     ? -sug =====> To Suggest | لعمل اقتراح
-    ? -id ======> To Show Your ID | ايدي حسابك
-    ? -ping ====> Ping Of Bot | بنج حك البوت
-    ? -allbots => Show All Bots In The Server | لاضهار جميع البوتات
-    ? -bot =====> Information Of The Bot | معلومات البوت
-    ? -server ==> Information Of The Server | معلومات السيرفر
-    ? -count ===> Member Count | عدد الاشخاص في السيرفر
-    ? -cal =====> To Calculate | اله لحاسبة 
-    ? -tag =====> To Tag A Word | لعمل تاق لكلمة 
-    ? -rooms ===> Show Rooms Of Server | اضهار الرومات الي في السيرفر
-    ? -za5 =====> To decorate Some Word | لزخرفة الكلمات
-    ? -roles ===> Show Roles Of The Server | اضهار الرانكات
-    ? -emojis ==> Emoji Of Server | ايموجيات السيرفر   
-    ? -say =====> The Bot Say Any Thing | تكرار اي شي كتبتو
-    ? -image ===> To Show Image Of Server | لاضهار صورة السيرف 
-    ? -contact => To Contact Owners Bot | مراسلة صاحب البوت
-    ? -invite \ -inv => Invite Bot | لدعوة البوت
-    ? -embed ===> To Embed | لتكرار اي شي كتبتو بطريقة حلوة
-    ? -avatar ==> Your Avatar | صورتك الشخصية
-    ? -support => Server Support | سيرفر الدعم الفني
+	`=-=-=-=-=-= 🌍 Public Commands - اوامر عامة 🌍 =-=-=-=-=-=
+    ✴ -sug =====> To Suggest | لعمل اقتراح
+    ✴ -id ======> To Show Your ID | ايدي حسابك
+    ✴ -ping ====> Ping Of Bot | بنج حك البوت
+    ✴ -allbots => Show All Bots In The Server | لاضهار جميع البوتات
+    ✴ -bot =====> Information Of The Bot | معلومات البوت
+    ✴ -server ==> Information Of The Server | معلومات السيرفر
+    ✴ -count ===> Member Count | عدد الاشخاص في السيرفر
+    ✴ -cal =====> To Calculate | اله لحاسبة 
+    ✴ -tag =====> To Tag A Word | لعمل تاق لكلمة 
+    ✴ -rooms ===> Show Rooms Of Server | اضهار الرومات الي في السيرفر
+    ✴ -za5 =====> To decorate Some Word | لزخرفة الكلمات
+    ✴ -roles ===> Show Roles Of The Server | اضهار الرانكات
+    ✴ -emojis ==> Emoji Of Server | ايموجيات السيرفر   
+    ✴ -say =====> The Bot Say Any Thing | تكرار اي شي كتبتو
+    ✴ -image ===> To Show Image Of Server | لاضهار صورة السيرف 
+    ✴ -contact => To Contact Owners Bot | مراسلة صاحب البوت
+    ✴ -invite \ -inv => Invite Bot | لدعوة البوت
+    ✴ -embed ===> To Embed | لتكرار اي شي كتبتو بطريقة حلوة
+    ✴ -avatar ==> Your Avatar | صورتك الشخصية
+    ✴ -support => Server Support | سيرفر الدعم الفني
      ===========================================================
-      React With ? To See Admins Commands`,
-	`=-=-=-=-=-= ??  Admin Commands - اوامر ادارية ?? =-=-=-=-=-=
-    ? -move @user => Move User To Your Room Voice | لسحب الشخص الى روومك
-    ? -mvall => Move All To Your Room Voice | لسحب الجميع الي روومك
-    ? -bc => Broadcast | رسالة جماعية الى كل اعضاء السيرفر
-    ? -role @user <rank> => Give User Rank | لأعطاء رتبة لعضو معين
-    ? -roleremove @user <rank> => remove Rank From User | لازالة الرتبة من شخص معين
-    ? -role all <rank> => Give All Rank | لأعطاء رتبة للجميع
-    ? -role humans <rank> => Give Humans Rank | لأعطاء رتبة للاشخاص فقط
-    ? -role bots <rank> => Give Bots Rank | لأعطاء رتبة لجميع البوتات
-    ? -hchannel => Hide Channel | اخفاء الشات
-    ? -schannel => Show The Hidden Channel | اضهار الشات المخفية
-    ? -clr <numbr> => Clear Chat With Number | مسح الشات بعدد
-    ? -clear => Clear Chat | مسح الشات
-    ? -mute @user <reason> => Mute User | اعطاء العضو ميوت لازم رتبة <Muted>
-    ? -unmute @user => Unmute User | لفك الميوت عن الشخص 
-    ? -kick @user <reason> => Kick User From Server | طرد الشخص من السيرفر
-    ? -ban @user <reason> => Ban User From Server | حضر الشخص من السيرفر
-    ? -mutechannel => Mute Channel | تقفيل الشات
-    ? -unmutechannel => Unmute Channel | فتح الشات
-    ? -dc => Delete All Rooms |  مسح كل الرومات
-    ? -dr => Delete All Rank <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات
-    ? -ccolors <number> => Create Colors | ينشا لك الوان مع كم الوان تبي
-    ? -kv @user => Voice Kick | يطرد شخص من الرووم
-    ? -vonline => Create Channel Voice Online | يسوي رووم فويس اونلاين
+      React With ▶ To See Admins Commands`,
+	`=-=-=-=-=-= 🔧  Admin Commands - اوامر ادارية 🔧 =-=-=-=-=-=
+    ❖ -move @user => Move User To Your Room Voice | لسحب الشخص الى روومك
+    ❖ -mvall => Move All To Your Room Voice | لسحب الجميع الي روومك
+    ❖ -bc => Broadcast | رسالة جماعية الى كل اعضاء السيرفر
+    ❖ -role @user <rank> => Give User Rank | لأعطاء رتبة لعضو معين
+    ❖ -roleremove @user <rank> => remove Rank From User | لازالة الرتبة من شخص معين
+    ❖ -role all <rank> => Give All Rank | لأعطاء رتبة للجميع
+    ❖ -role humans <rank> => Give Humans Rank | لأعطاء رتبة للاشخاص فقط
+    ❖ -role bots <rank> => Give Bots Rank | لأعطاء رتبة لجميع البوتات
+    ❖ -hchannel => Hide Channel | اخفاء الشات
+    ❖ -schannel => Show The Hidden Channel | اضهار الشات المخفية
+    ❖ -clr <numbr> => Clear Chat With Number | مسح الشات بعدد
+    ❖ -clear => Clear Chat | مسح الشات
+    ❖ -mute @user <reason> => Mute User | اعطاء العضو ميوت لازم رتبة <Muted>
+    ❖ -unmute @user => Unmute User | لفك الميوت عن الشخص 
+    ❖ -kick @user <reason> => Kick User From Server | طرد الشخص من السيرفر
+    ❖ -ban @user <reason> => Ban User From Server | حضر الشخص من السيرفر
+    ❖ -mutechannel => Mute Channel | تقفيل الشات
+    ❖ -unmutechannel => Unmute Channel | فتح الشات
+    ❖ -dc => Delete All Rooms |  مسح كل الرومات
+    ❖ -dr => Delete All Rank <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات
+    ❖ -ccolors <number> => Create Colors | ينشا لك الوان مع كم الوان تبي
+    ❖ -kv @user => Voice Kick | يطرد شخص من الرووم
+    ❖ -vonline => Create Channel Voice Online | يسوي رووم فويس اونلاين
      ===========================================================
-     ? Create Channel **welcome** To Enable The Welcome 
-     ? Create Channel **suggestion** To Enable Command -sug
+     ✴ Create Channel **welcome** To Enable The Welcome 
+     ✴ Create Channel **suggestion** To Enable Command -sug
      ===========================================================
-      React With ? To See Games Commands`,
-	`=-=-=-=-=-= ??  Games Commands - اوامر الالعاب ?? =-=-=-=-=-=
-    ?? -xo @user => Game XO | لعب اكس او
-    ?? -rps => Rock & Paper & Scissors | لعبة حجر ورقة مقص
-    ?? -slots => Game Of Fruits | لعبة الفواكه
-    ?? -marry @user => لعبة الزواج
-    ?? -System => لعبة سرعة كتابة 
-    ?? -لعبة فكك <= فكك
-    ?? -لعبة عواصم <= عواصم
-    ?? -البوت يعطيك نصائح <= هل تعلم
+      React With ▶ To See Games Commands`,
+	`=-=-=-=-=-= 🎯  Games Commands - اوامر الالعاب 🎯 =-=-=-=-=-=
+    💠 -xo @user => Game XO | لعب اكس او
+    💠 -rps => Rock & Paper & Scissors | لعبة حجر ورقة مقص
+    💠 -slots => Game Of Fruits | لعبة الفواكه
+    💠 -marry @user => لعبة الزواج
+    💠 -System => لعبة سرعة كتابة 
+    💠 -لعبة فكك <= فكك
+    💠 -لعبة عواصم <= عواصم
+    💠 -البوت يعطيك نصائح <= هل تعلم
       قريييب نضيف بعض الالعاب واذا تبون اي لعبة تعالو سيرفر المساعدة
     ===========================================================
-      React With ? To See Music Commands`,
-	`=-=-=-=-=-= ??  Music Commands - اوامر الموسيقى ?? =-=-=-=-=-=
-    ? -play => لتشغيل أغنية برآبط أو بأسم
-    ? -skip => لتجآوز الأغنية الحآلية
-    ? -pause => إيقآف الأغنية مؤقتا
-    ? -resume => لموآصلة الإغنية بعد إيقآفهآ مؤقتا
-    ? -vol => لتغيير درجة الصوت 100 - 0
-    ? -stop => لإخرآج البوت من الروم
-    ? -np => لمعرفة الأغنية المشغلة حآليا
-    ? -queue => لمعرفة قآئمة التشغيل
+      React With ▶ To See Music Commands`,
+	`=-=-=-=-=-= 🎯  Music Commands - اوامر الموسيقى 🎯 =-=-=-=-=-=
+    ❖ -play => لتشغيل أغنية برآبط أو بأسم
+    ❖ -skip => لتجآوز الأغنية الحآلية
+    ❖ -pause => إيقآف الأغنية مؤقتا
+    ❖ -resume => لموآصلة الإغنية بعد إيقآفهآ مؤقتا
+    ❖ -vol => لتغيير درجة الصوت 100 - 0
+    ❖ -stop => لإخرآج البوت من الروم
+    ❖ -np => لمعرفة الأغنية المشغلة حآليا
+    ❖ -queue => لمعرفة قآئمة التشغيل
 	Soon And I Will Translate The Command To Englih`]
 	let page = 1;
 
@@ -111,12 +111,12 @@ if (message.content.startsWith(prefix + 'help')) {
 
     message.channel.sendEmbed(embed).then(msg => {
 
-        msg.react('?').then( r => {
-            msg.react('?')
+        msg.react('◀').then( r => {
+            msg.react('▶')
 
 
-        const backwardsFilter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
-        const forwardsFilter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
+        const backwardsFilter = (reaction, user) => reaction.emoji.name === '◀' && user.id === message.author.id;
+        const forwardsFilter = (reaction, user) => reaction.emoji.name === '▶' && user.id === message.author.id;
 
 
         const backwards = msg.createReactionCollector(backwardsFilter, { time: 20000});
@@ -180,16 +180,16 @@ client.on('message' , message => {
     .catch(console.error);
     message.channel.send('يجب الانتضار حيث ما يتم الموافقه')
     .then(async (new_message) => {
-      await new_message.react('1?');
-      await new_message.react('2?');
-      await new_message.react('3?');
-      await new_message.react('4?');
-      await new_message.react('5?');
-      await new_message.react('6?');
-      await new_message.react('7?');
-      await new_message.react('8?');
-      await new_message.react('9?');
-      await new_message.react('??');
+      await new_message.react('1⃣');
+      await new_message.react('2⃣');
+      await new_message.react('3⃣');
+      await new_message.react('4⃣');
+      await new_message.react('5⃣');
+      await new_message.react('6⃣');
+      await new_message.react('7⃣');
+      await new_message.react('8⃣');
+      await new_message.react('9⃣');
+      await new_message.react('🆗');
       await new_message.edit(`It\'s <@${turn_id}>\'s turn! Your symbol is ${symbol}`)
       .then((new_new_message) => {
         require('./xo.js')(client, message, new_new_message, player1_id, player2_id, turn_id, symbol, symbols, grid_message);
@@ -405,7 +405,7 @@ client.on('guildCreate', guild => {
      .setTitle('Click Here To Add Bot .!')
      .setURL('https://discordapp.com/api/oauth2/authorize?client_id=526892015779315733&permissions=0&scope=bot')
   .setDescription(`**
-  New Server Add System Bot ?
+  New Server Add System Bot ✅
 Server name: __${guild.name}__
 Server owner: __${guild.owner}__
 Server id: __${guild.id}__ 
@@ -641,7 +641,7 @@ var prefix = "-";
 if(ra3d.content.startsWith(prefix + 'ccolors')) {
     if(!args) return ra3d.channel.send('`How Many Colors??`');
              if (!ra3d.member.hasPermission('MANAGE_ROLES')) return ra3d.channel.sendMessage('**You Dont Have Permission `MANAGE_ROLES`**'); 
-              ra3d.channel.send(`**? |Created __${args}__ Colors**`);
+              ra3d.channel.send(`**✅ |Created __${args}__ Colors**`);
                   setInterval(function(){})
                     let count = 0;
                     let ecount = 0;
@@ -697,19 +697,19 @@ client.on("message", function(message) {
     var RpsEmbed = new Discord.RichEmbed()
     .setAuthor(message.author.username)
     .setThumbnail(message.author.avatarURL)
-    .addField("Rock","??",true)
-    .addField("Paper","??",true)
-    .addField("Scissors","??",true)
+    .addField("Rock","🇷",true)
+    .addField("Paper","🇵",true)
+    .addField("Scissors","🇸",true)
     message.channel.send(RpsEmbed).then(msg => {
-        msg.react(' ??')
-        msg.react("??")
-        msg.react("??")
-.then(() => msg.react('??'))
-.then(() =>msg.react('??'))
-.then(() => msg.react('??'))
-let reaction1Filter = (reaction, user) => reaction.emoji.name === '??' && user.id === message.author.id;
-let reaction2Filter = (reaction, user) => reaction.emoji.name === '??' && user.id === message.author.id;
-let reaction3Filter = (reaction, user) => reaction.emoji.name === '??' && user.id === message.author.id;
+        msg.react(' 🇷')
+        msg.react("🇸")
+        msg.react("🇵")
+.then(() => msg.react('🇷'))
+.then(() =>msg.react('🇸'))
+.then(() => msg.react('🇵'))
+let reaction1Filter = (reaction, user) => reaction.emoji.name === '🇷' && user.id === message.author.id;
+let reaction2Filter = (reaction, user) => reaction.emoji.name === '🇸' && user.id === message.author.id;
+let reaction3Filter = (reaction, user) => reaction.emoji.name === '🇵' && user.id === message.author.id;
 let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
 	    
 let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
@@ -740,13 +740,13 @@ const days = millis / 1000 / 60 / 60 / 24;
 let roles = client.guilds.get(message.guild.id).roles.map(r => r.name);
 var embed  = new Discord.RichEmbed()
 .setAuthor(message.guild.name, message.guild.iconURL)
-.addField("**?? Server ID:**", message.guild.id,true)
-.addField("**?? Created On**", message.guild.createdAt.toLocaleString(),true)
-.addField("**?? Owned by**",`${message.guild.owner.user.username}#${message.guild.owner.user.discriminator}`)
-.addField("?? Members ",`[${message.guild.memberCount}]`,true)
-.addField('**?? Channels **',`**${message.guild.channels.filter(m => m.type === 'text').size}**` + ' text | Voice  '+ `**${message.guild.channels.filter(m => m.type === 'voice').size}** `,true)
-.addField("**?? Others **" , message.guild.region,true)
-.addField("** ?? Roles **",`**[${message.guild.roles.size}]** Role `,true)
+.addField("**🆔 Server ID:**", message.guild.id,true)
+.addField("**📅 Created On**", message.guild.createdAt.toLocaleString(),true)
+.addField("**👑 Owned by**",`${message.guild.owner.user.username}#${message.guild.owner.user.discriminator}`)
+.addField("👥 Members ",`[${message.guild.memberCount}]`,true)
+.addField('**💬 Channels **',`**${message.guild.channels.filter(m => m.type === 'text').size}**` + ' text | Voice  '+ `**${message.guild.channels.filter(m => m.type === 'voice').size}** `,true)
+.addField("**🌍 Others **" , message.guild.region,true)
+.addField("** 🔐 Roles **",`**[${message.guild.roles.size}]** Role `,true)
 .setColor('#000000')
 message.channel.sendEmbed(embed)
 
@@ -808,7 +808,7 @@ if (message.member.voiceChannel != null) {
 var embed = new Discord.RichEmbed()
  .setTitle("Succes!")
  .setColor("#000000")
- .setDescription(`? You Have Moved <@${usermentioned}> To Your Channel`)
+ .setDescription(`✅ You Have Moved <@${usermentioned}> To Your Channel`)
 var embed = new Discord.RichEmbed()
 .setTitle(`You are Moved in ${message.guild.name}`)
  .setColor("RANDOM")
@@ -822,7 +822,7 @@ message.channel.send("`You Cant Move"+ message.mentions.members.first() +" `The 
  message.channel.send("**``You Should Be In Room Voice To Move SomeOne``**")
 }
 } else {
-message.react("?")
+message.react("❌")
  }}});
 
  client.on('message', message => {
@@ -831,7 +831,7 @@ message.react("?")
       var IzRo = new Discord.RichEmbed()
       .setThumbnail(message.author.avatarURL)
       .setFooter(message.author.username, message.author.avatarURL)
-      .setTitle('??| Members info')
+      .setTitle('🌍| Members info')
       .addBlankField(true)
       .addField('Mmeber Count',`${message.guild.memberCount}`)
       message.channel.send(IzRo);
@@ -887,17 +887,17 @@ if(!args[0]) return message.reply('Write Some Things');
     let copy = "System Bot";
     let request = `Requested By ${message.author.username}`;
     if (!args) return message.reply('**Write Some Things To Broadcast**');message.channel.send(`**Are You Sure \nThe Broadcast: ** \` ${args}\``).then(msg => {
-    msg.react('?')
-    .then(() => msg.react('?'))
-    .then(() =>msg.react('?'))
+    msg.react('✅')
+    .then(() => msg.react('❌'))
+    .then(() =>msg.react('✅'))
     
-    let reaction1Filter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
-    let reaction2Filter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
+    let reaction1Filter = (reaction, user) => reaction.emoji.name === '✅' && user.id === message.author.id;
+    let reaction2Filter = (reaction, user) => reaction.emoji.name === '❌' && user.id === message.author.id;
     
     let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
     let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
  reaction1.on("collect", r => {
-    message.channel.send(`**? | Done ... The Broadcast Message Has Been Sent To __${message.guild.members.size}__ Members**`).then(m => m.delete(5000));
+    message.channel.send(`**☑ | Done ... The Broadcast Message Has Been Sent To __${message.guild.members.size}__ Members**`).then(m => m.delete(5000));
     message.guild.members.forEach(m => {
   
   var bc = new
@@ -1246,7 +1246,7 @@ message.channel.send('**Game is Start now...!**').then(msg => {
  
  const embed = new Discord.RichEmbed()
  .setColor("0054dd")
-     .setAuthor(`? |You have »15« seconds to type the word`)
+     .setAuthor(`⏳ |You have »15« seconds to type the word`)
           .setImage(`${item.type}`)
  .setFooter(`${message.author.tag}`, message.author.avatarURL)
  
@@ -1257,14 +1257,14 @@ msg.channel.send(embed).then(() => {
         .then((collected) => {
                   const sh = new Discord.RichEmbed()
   .setColor("04791c")
-  .setDescription('**? |Good Job +1P**')
+  .setDescription('**✅ |Good Job +1P**')
    .setFooter(`${collected.first().author}`)
   message.channel.sendEmbed(sh);
             let won = collected.first().author; // في هذا السطر يقوم الكود بسحب الأي دي الذي قام بالأجابة اولاً
             points[won.id].points++;
           })
           .catch(collected => { // في حال لم يقم أحد بالإجابة
-            message.channel.send(`?? |**Time Is End**`);
+            message.channel.send(`🔚 |**Time Is End**`);
           })
         })
     })
@@ -1416,7 +1416,7 @@ let prefix = '-'
         const List = message.guild.emojis.map(e => e.toString()).join(" ");
 
         const EmojiList = new Discord.RichEmbed()
-            .setTitle('? Emojis') 
+            .setTitle('➡ Emojis') 
             .setAuthor(message.guild.name, message.guild.iconURL) 
             .setColor('RANDOM') 
             .setDescription(List) 
@@ -1604,7 +1604,7 @@ var aoasm =[
     {q:"ما عاصمة ** اذربيجان**",a:"باكو"},
     {q:"ما عاصمة **جزر البهاما**",a:"ناساو"},
     {q:"ما عاصمة **البحرين**",a:"المنامة"},
-    {q:"ما عاصمة ** بنجلاد??ش**",a:"دكـا"},
+    {q:"ما عاصمة ** بنجلاد��ش**",a:"دكـا"},
     {q:"ما عاصمة **باربادوس **",a:"بريدجتاون"},
     {q:"ما عاصمة **بيلا روسيا**",a:"مينسك"},
     {q:"ما عاصمة ** بلجيكا**",a:"بروكسل"},
@@ -1648,7 +1648,7 @@ var aoasm =[
     {q:"ما عاصمة **امريكا  **",a:"واشنطن"},
     {q:"ما عاصمة **الاردن  **",a:"عمان"},    
     {q:"ما عاصمة **السودان  **",a:"خرطوم"},
-    {q:"ما عاصمة **الما??يا  **",a:"برلين"},
+    {q:"ما عاصمة **الما��يا  **",a:"برلين"},
     {q:"ما عاصمة **كندا  **",a:"اوتاوا"},
     {q:"ما عاصمة **البرازيل  **",a:"برازيليا"},
    ];
@@ -1713,11 +1713,11 @@ if (message.content.startsWith(prefix + "contact")) {
 if (!message.channel.guild) return;
 let args = message.content.split(" ").slice(1).join(" ");
 client.users.get("349616310734553088").send(
-    "\n" + "**" + "? السيرفر :" + "**" +
+    "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
-    "\n" + "**" + " ? المرسل : " + "**" +
+    "\n" + "**" + " ● المرسل : " + "**" +
     "\n" + "**" + "» " + message.author.tag + "**" +
-    "\n" + "**" + " ? الرسالة : " + "**" +
+    "\n" + "**" + " ● الرسالة : " + "**" +
     "\n" + "**" + args + "**");
 
 
@@ -1744,7 +1744,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 if(message.content.startsWith("-slots")) {
-  let slot1 = ['??', '??', '??', '??', '??', '??', '??', '??'];
+  let slot1 = ['🍏', '🍇', '🍒', '🍍', '🍅', '🍆', '🍑', '🍓'];
   let slots1 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
   let slots2 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
   let slots3 = `${slot1[Math.floor(Math.random() * slot1.length)]}`;
@@ -1765,11 +1765,11 @@ if (message.content.startsWith(prefix + "contact")) {
 if (!message.channel.guild) return message.reply("This Command Only For Servers");
 let args = message.content.split(" ").slice(1).join(" ");
 client.users.get("335027415619338240").send(
-    "\n" + "**" + "? السيرفر :" + "**" +
+    "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
-    "\n" + "**" + " ? المرسل : " + "**" +
+    "\n" + "**" + " ● المرسل : " + "**" +
     "\n" + "**" + "» " + message.author.tag + "**" +
-    "\n" + "**" + " ? الرسالة : " + "**" +
+    "\n" + "**" + " ● الرسالة : " + "**" +
     "\n" + "**" + args + "**")
 
 let embed = new Discord.RichEmbed()
@@ -1919,7 +1919,7 @@ client.on('message', message => {
             if(!message.channel.guild) return;
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
-        .setTitle(`? Click Here `)
+        .setTitle(`➡ Click Here `)
         .setURL(`https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
@@ -1931,8 +1931,8 @@ client.on('message', message => {
             if(!message.channel.guild) return;
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
-        .setTitle(`? Click Here `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=528247623321255946&permissions=0&scope=bot`)
+        .setTitle(`➡ Click Here `)
+        .setURL(`https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
@@ -2004,7 +2004,7 @@ if(!omar.guild.member(client.user).hasPermission("MANAGE_ROLES_OR_PERMISSIONS"))
 omar.guild.roles.forEach(m => {
 m.delete();
 });// omar jedol / Codes
-omar.reply("? `Success Deleted All Roles - Ranks`")
+omar.reply("✅ `Success Deleted All Roles - Ranks`")
 }// omar jedol / Codes
 });
 
@@ -2017,12 +2017,12 @@ if(!message.member.hasPermission('MANAGE_MESSAGES')) return      message.channel
 let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
 let request = `Requested By ${message.author.username}`;
 message.channel.send(`**Are You sure you want to clear the chat?**`).then(msg => {
-msg.react('?')
-.then(() => msg.react('?'))
-.then(() =>msg.react('?'))
+msg.react('✅')
+.then(() => msg.react('❌'))
+.then(() =>msg.react('✅'))
 
-let reaction1Filter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
-let reaction2Filter = (reaction, user) => reaction.emoji.name === '?' && user.id === message.author.id;
+let reaction1Filter = (reaction, user) => reaction.emoji.name === '✅' && user.id === message.author.id;
+let reaction2Filter = (reaction, user) => reaction.emoji.name === '❌' && user.id === message.author.id;
 
 let reaction1 = msg.createReactionCollector(reaction1Filter, { time: 12000 });
 let reaction2 = msg.createReactionCollector(reaction2Filter, { time: 12000 });
@@ -2055,8 +2055,8 @@ client.on('message', message => {
       if(!message.channel.guild) return message.reply('** This command only for servers **')
       var proposed = message.mentions.members.first()
      
-      if(!message.mentions.members.first()) return message.reply(' ?? **لازم تطلب ايد وحدة**').catch(console.error);
-      if(message.mentions.users.size > 1) return message.reply(' ?? **ولد ما يصحلك الا حرمة وحدة كل مرة**').catch(console.error);
+      if(!message.mentions.members.first()) return message.reply(' 😏 **لازم تطلب ايد وحدة**').catch(console.error);
+      if(message.mentions.users.size > 1) return message.reply(' 😳 **ولد ما يصحلك الا حرمة وحدة كل مرة**').catch(console.error);
        if(proposed === message.author) return message.reply(`**خنثى ؟ **`);
         if(proposed === client.user) return message.reply(`** تبي تتزوجني؟ **`);
               message.channel.send(`**${proposed} 
